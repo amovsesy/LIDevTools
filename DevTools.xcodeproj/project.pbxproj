@@ -17,17 +17,20 @@
 		5E15FAAE17B18DFD00C933EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAAD17B18DFD00C933EA /* Default@2x.png */; };
 		5E15FAB017B18DFD00C933EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAAF17B18DFD00C933EA /* Default-568h@2x.png */; };
 		5E15FAB317B18DFD00C933EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAB117B18DFD00C933EA /* MainStoryboard.storyboard */; };
-		5E15FAB617B18DFD00C933EA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15FAB517B18DFD00C933EA /* FirstViewController.m */; };
-		5E15FAB817B18DFD00C933EA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAB717B18DFD00C933EA /* first.png */; };
-		5E15FABA17B18DFD00C933EA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAB917B18DFD00C933EA /* first@2x.png */; };
-		5E15FABD17B18DFD00C933EA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15FABC17B18DFD00C933EA /* SecondViewController.m */; };
-		5E15FABF17B18DFD00C933EA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FABE17B18DFD00C933EA /* second.png */; };
-		5E15FAC117B18DFD00C933EA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAC017B18DFD00C933EA /* second@2x.png */; };
+		5E15FAB617B18DFD00C933EA /* ReviewBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15FAB517B18DFD00C933EA /* ReviewBoardViewController.m */; };
+		5E15FABD17B18DFD00C933EA /* JiraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15FABC17B18DFD00C933EA /* JiraViewController.m */; };
 		5E15FAC917B18DFD00C933EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E15FAC817B18DFD00C933EA /* SenTestingKit.framework */; };
 		5E15FACA17B18DFD00C933EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E15FA9917B18DFD00C933EA /* UIKit.framework */; };
 		5E15FACB17B18DFD00C933EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E15FA9B17B18DFD00C933EA /* Foundation.framework */; };
 		5E15FAD317B18DFD00C933EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAD117B18DFD00C933EA /* InfoPlist.strings */; };
 		5E15FAD617B18DFD00C933EA /* DevToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15FAD517B18DFD00C933EA /* DevToolsTests.m */; };
+		5E15FAE317B191DF00C933EA /* jira_logo_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FADF17B191DF00C933EA /* jira_logo_2x.png */; };
+		5E15FAE417B191DF00C933EA /* jira_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAE017B191DF00C933EA /* jira_logo.png */; };
+		5E15FAE517B191DF00C933EA /* rb_logo_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAE117B191DF00C933EA /* rb_logo_2x.png */; };
+		5E15FAE617B191DF00C933EA /* rb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAE217B191DF00C933EA /* rb_logo.png */; };
+		5E15FAE917B1942C00C933EA /* lix_logo_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAE717B1942C00C933EA /* lix_logo_2x.png */; };
+		5E15FAEA17B1942C00C933EA /* lix_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E15FAE817B1942C00C933EA /* lix_logo.png */; };
+		5E15FAED17B1991000C933EA /* LixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15FAEC17B1991000C933EA /* LixViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,20 +58,24 @@
 		5E15FAAD17B18DFD00C933EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5E15FAAF17B18DFD00C933EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5E15FAB217B18DFD00C933EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5E15FAB417B18DFD00C933EA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5E15FAB517B18DFD00C933EA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5E15FAB717B18DFD00C933EA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		5E15FAB917B18DFD00C933EA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		5E15FABB17B18DFD00C933EA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5E15FABC17B18DFD00C933EA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		5E15FABE17B18DFD00C933EA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		5E15FAC017B18DFD00C933EA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5E15FAB417B18DFD00C933EA /* ReviewBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewBoardViewController.h; sourceTree = "<group>"; };
+		5E15FAB517B18DFD00C933EA /* ReviewBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewBoardViewController.m; sourceTree = "<group>"; };
+		5E15FABB17B18DFD00C933EA /* JiraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiraViewController.h; sourceTree = "<group>"; };
+		5E15FABC17B18DFD00C933EA /* JiraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiraViewController.m; sourceTree = "<group>"; };
 		5E15FAC717B18DFD00C933EA /* DevToolsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevToolsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E15FAC817B18DFD00C933EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5E15FAD017B18DFD00C933EA /* DevToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DevToolsTests-Info.plist"; sourceTree = "<group>"; };
 		5E15FAD217B18DFD00C933EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E15FAD417B18DFD00C933EA /* DevToolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevToolsTests.h; sourceTree = "<group>"; };
 		5E15FAD517B18DFD00C933EA /* DevToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevToolsTests.m; sourceTree = "<group>"; };
+		5E15FADF17B191DF00C933EA /* jira_logo_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jira_logo_2x.png; sourceTree = "<group>"; };
+		5E15FAE017B191DF00C933EA /* jira_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jira_logo.png; sourceTree = "<group>"; };
+		5E15FAE117B191DF00C933EA /* rb_logo_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rb_logo_2x.png; sourceTree = "<group>"; };
+		5E15FAE217B191DF00C933EA /* rb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rb_logo.png; sourceTree = "<group>"; };
+		5E15FAE717B1942C00C933EA /* lix_logo_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lix_logo_2x.png; sourceTree = "<group>"; };
+		5E15FAE817B1942C00C933EA /* lix_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lix_logo.png; sourceTree = "<group>"; };
+		5E15FAEB17B1991000C933EA /* LixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixViewController.h; sourceTree = "<group>"; };
+		5E15FAEC17B1991000C933EA /* LixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,17 +135,21 @@
 		5E15FA9F17B18DFD00C933EA /* DevTools */ = {
 			isa = PBXGroup;
 			children = (
+				5E15FAE717B1942C00C933EA /* lix_logo_2x.png */,
+				5E15FAE817B1942C00C933EA /* lix_logo.png */,
+				5E15FADF17B191DF00C933EA /* jira_logo_2x.png */,
+				5E15FAE017B191DF00C933EA /* jira_logo.png */,
+				5E15FAE117B191DF00C933EA /* rb_logo_2x.png */,
+				5E15FAE217B191DF00C933EA /* rb_logo.png */,
 				5E15FAA817B18DFD00C933EA /* AppDelegate.h */,
 				5E15FAA917B18DFD00C933EA /* AppDelegate.m */,
 				5E15FAB117B18DFD00C933EA /* MainStoryboard.storyboard */,
-				5E15FAB417B18DFD00C933EA /* FirstViewController.h */,
-				5E15FAB517B18DFD00C933EA /* FirstViewController.m */,
-				5E15FAB717B18DFD00C933EA /* first.png */,
-				5E15FAB917B18DFD00C933EA /* first@2x.png */,
-				5E15FABB17B18DFD00C933EA /* SecondViewController.h */,
-				5E15FABC17B18DFD00C933EA /* SecondViewController.m */,
-				5E15FABE17B18DFD00C933EA /* second.png */,
-				5E15FAC017B18DFD00C933EA /* second@2x.png */,
+				5E15FAB417B18DFD00C933EA /* ReviewBoardViewController.h */,
+				5E15FAB517B18DFD00C933EA /* ReviewBoardViewController.m */,
+				5E15FABB17B18DFD00C933EA /* JiraViewController.h */,
+				5E15FABC17B18DFD00C933EA /* JiraViewController.m */,
+				5E15FAEB17B1991000C933EA /* LixViewController.h */,
+				5E15FAEC17B1991000C933EA /* LixViewController.m */,
 				5E15FAA017B18DFD00C933EA /* Supporting Files */,
 			);
 			path = DevTools;
@@ -253,10 +264,12 @@
 				5E15FAAE17B18DFD00C933EA /* Default@2x.png in Resources */,
 				5E15FAB017B18DFD00C933EA /* Default-568h@2x.png in Resources */,
 				5E15FAB317B18DFD00C933EA /* MainStoryboard.storyboard in Resources */,
-				5E15FAB817B18DFD00C933EA /* first.png in Resources */,
-				5E15FABA17B18DFD00C933EA /* first@2x.png in Resources */,
-				5E15FABF17B18DFD00C933EA /* second.png in Resources */,
-				5E15FAC117B18DFD00C933EA /* second@2x.png in Resources */,
+				5E15FAE317B191DF00C933EA /* jira_logo_2x.png in Resources */,
+				5E15FAE417B191DF00C933EA /* jira_logo.png in Resources */,
+				5E15FAE517B191DF00C933EA /* rb_logo_2x.png in Resources */,
+				5E15FAE617B191DF00C933EA /* rb_logo.png in Resources */,
+				5E15FAE917B1942C00C933EA /* lix_logo_2x.png in Resources */,
+				5E15FAEA17B1942C00C933EA /* lix_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +306,9 @@
 			files = (
 				5E15FAA617B18DFD00C933EA /* main.m in Sources */,
 				5E15FAAA17B18DFD00C933EA /* AppDelegate.m in Sources */,
-				5E15FAB617B18DFD00C933EA /* FirstViewController.m in Sources */,
-				5E15FABD17B18DFD00C933EA /* SecondViewController.m in Sources */,
+				5E15FAB617B18DFD00C933EA /* ReviewBoardViewController.m in Sources */,
+				5E15FABD17B18DFD00C933EA /* JiraViewController.m in Sources */,
+				5E15FAED17B1991000C933EA /* LixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +489,7 @@
 				5E15FADB17B18DFD00C933EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E15FADC17B18DFD00C933EA /* Build configuration list for PBXNativeTarget "DevToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +498,7 @@
 				5E15FADE17B18DFD00C933EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,21 +9,18 @@
 #import "ReviewBoardViewController.h"
 
 @interface ReviewBoardViewController ()
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
 @implementation ReviewBoardViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *fullURL = @"https://rb.corp.linkedin.com/";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_webView loadRequest:requestObj];
 }
 
 @end

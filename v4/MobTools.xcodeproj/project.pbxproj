@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EE8A64117B6793900F406E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE8A64017B6793900F406E1 /* UIKit.framework */; };
+		5EE8A64317B6793900F406E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE8A64217B6793900F406E1 /* Foundation.framework */; };
+		5EE8A64517B6793900F406E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE8A64417B6793900F406E1 /* CoreGraphics.framework */; };
+		5EE8A64B17B6793900F406E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A64917B6793900F406E1 /* InfoPlist.strings */; };
+		5EE8A64D17B6793900F406E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A64C17B6793900F406E1 /* main.m */; };
+		5EE8A65117B6793900F406E1 /* MobToolsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A65017B6793900F406E1 /* MobToolsAppDelegate.m */; };
+		5EE8A65317B6793900F406E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A65217B6793900F406E1 /* Default.png */; };
+		5EE8A65517B6793900F406E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A65417B6793900F406E1 /* Default@2x.png */; };
+		5EE8A65717B6793900F406E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A65617B6793900F406E1 /* Default-568h@2x.png */; };
+		5EE8A67717B679CF00F406E1 /* jira_logo_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A67117B679CF00F406E1 /* jira_logo_2x.png */; };
+		5EE8A67817B679CF00F406E1 /* jira_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A67217B679CF00F406E1 /* jira_logo.png */; };
+		5EE8A67917B679CF00F406E1 /* lix_logo_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A67317B679CF00F406E1 /* lix_logo_2x.png */; };
+		5EE8A67A17B679CF00F406E1 /* lix_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A67417B679CF00F406E1 /* lix_logo.png */; };
+		5EE8A67B17B679CF00F406E1 /* rb_logo_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A67517B679CF00F406E1 /* rb_logo_2x.png */; };
+		5EE8A67C17B679CF00F406E1 /* rb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A67617B679CF00F406E1 /* rb_logo.png */; };
+		5EE8A68517B67BA300F406E1 /* MobToolsLIXNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A68417B67BA300F406E1 /* MobToolsLIXNavController.m */; };
+		5EE8A68817B67BB500F406E1 /* MobToolsCRTNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A68717B67BB500F406E1 /* MobToolsCRTNavController.m */; };
+		5EE8A6A217B6833800F406E1 /* MobToolsLIXLoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A6A017B6833800F406E1 /* MobToolsLIXLoggedInViewController.m */; };
+		5EE8A6A317B6833800F406E1 /* MobToolsLIXLoggedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A6A117B6833800F406E1 /* MobToolsLIXLoggedInViewController.xib */; };
+		5EE8A6A717B6834300F406E1 /* MobToolsLIXLoggedOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A6A517B6834300F406E1 /* MobToolsLIXLoggedOutViewController.m */; };
+		5EE8A6A817B6834300F406E1 /* MobToolsLIXLoggedOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A6A617B6834300F406E1 /* MobToolsLIXLoggedOutViewController.xib */; };
+		5EE8A6AC17B6836500F406E1 /* MobToolsCRTLoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A6AA17B6836400F406E1 /* MobToolsCRTLoggedInViewController.m */; };
+		5EE8A6AD17B6836500F406E1 /* MobToolsCRTLoggedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A6AB17B6836500F406E1 /* MobToolsCRTLoggedInViewController.xib */; };
+		5EE8A6B117B6837300F406E1 /* MobToolsCRTLoggedOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8A6AF17B6837300F406E1 /* MobToolsCRTLoggedOutViewController.m */; };
+		5EE8A6B217B6837300F406E1 /* MobToolsCRTLoggedOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8A6B017B6837300F406E1 /* MobToolsCRTLoggedOutViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EE8A63D17B6793900F406E1 /* MobTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE8A64017B6793900F406E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EE8A64217B6793900F406E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EE8A64417B6793900F406E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EE8A64817B6793900F406E1 /* MobTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobTools-Info.plist"; sourceTree = "<group>"; };
+		5EE8A64A17B6793900F406E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EE8A64C17B6793900F406E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EE8A64E17B6793900F406E1 /* MobTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobTools-Prefix.pch"; sourceTree = "<group>"; };
+		5EE8A64F17B6793900F406E1 /* MobToolsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobToolsAppDelegate.h; sourceTree = "<group>"; };
+		5EE8A65017B6793900F406E1 /* MobToolsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobToolsAppDelegate.m; sourceTree = "<group>"; };
+		5EE8A65217B6793900F406E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5EE8A65417B6793900F406E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5EE8A65617B6793900F406E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5EE8A67117B679CF00F406E1 /* jira_logo_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jira_logo_2x.png; sourceTree = "<group>"; };
+		5EE8A67217B679CF00F406E1 /* jira_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jira_logo.png; sourceTree = "<group>"; };
+		5EE8A67317B679CF00F406E1 /* lix_logo_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lix_logo_2x.png; sourceTree = "<group>"; };
+		5EE8A67417B679CF00F406E1 /* lix_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lix_logo.png; sourceTree = "<group>"; };
+		5EE8A67517B679CF00F406E1 /* rb_logo_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rb_logo_2x.png; sourceTree = "<group>"; };
+		5EE8A67617B679CF00F406E1 /* rb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rb_logo.png; sourceTree = "<group>"; };
+		5EE8A68317B67BA200F406E1 /* MobToolsLIXNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobToolsLIXNavController.h; sourceTree = "<group>"; };
+		5EE8A68417B67BA300F406E1 /* MobToolsLIXNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobToolsLIXNavController.m; sourceTree = "<group>"; };
+		5EE8A68617B67BB500F406E1 /* MobToolsCRTNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobToolsCRTNavController.h; sourceTree = "<group>"; };
+		5EE8A68717B67BB500F406E1 /* MobToolsCRTNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobToolsCRTNavController.m; sourceTree = "<group>"; };
+		5EE8A69F17B6833800F406E1 /* MobToolsLIXLoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobToolsLIXLoggedInViewController.h; sourceTree = "<group>"; };
+		5EE8A6A017B6833800F406E1 /* MobToolsLIXLoggedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobToolsLIXLoggedInViewController.m; sourceTree = "<group>"; };
+		5EE8A6A117B6833800F406E1 /* MobToolsLIXLoggedInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobToolsLIXLoggedInViewController.xib; sourceTree = "<group>"; };
+		5EE8A6A417B6834300F406E1 /* MobToolsLIXLoggedOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobToolsLIXLoggedOutViewController.h; sourceTree = "<group>"; };
+		5EE8A6A517B6834300F406E1 /* MobToolsLIXLoggedOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobToolsLIXLoggedOutViewController.m; sourceTree = "<group>"; };
+		5EE8A6A617B6834300F406E1 /* MobToolsLIXLoggedOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobToolsLIXLoggedOutViewController.xib; sourceTree = "<group>"; };
+		5EE8A6A917B6836400F406E1 /* MobToolsCRTLoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobToolsCRTLoggedInViewController.h; sourceTree = "<group>"; };
+		5EE8A6AA17B6836400F406E1 /* MobToolsCRTLoggedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobToolsCRTLoggedInViewController.m; sourceTree = "<group>"; };
+		5EE8A6AB17B6836500F406E1 /* MobToolsCRTLoggedInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobToolsCRTLoggedInViewController.xib; sourceTree = "<group>"; };
+		5EE8A6AE17B6837300F406E1 /* MobToolsCRTLoggedOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobToolsCRTLoggedOutViewController.h; sourceTree = "<group>"; };
+		5EE8A6AF17B6837300F406E1 /* MobToolsCRTLoggedOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobToolsCRTLoggedOutViewController.m; sourceTree = "<group>"; };
+		5EE8A6B017B6837300F406E1 /* MobToolsCRTLoggedOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobToolsCRTLoggedOutViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE8A63A17B6793900F406E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE8A64117B6793900F406E1 /* UIKit.framework in Frameworks */,
+				5EE8A64317B6793900F406E1 /* Foundation.framework in Frameworks */,
+				5EE8A64517B6793900F406E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE8A63417B6793900F406E1 = {
+			isa = PBXGroup;
+			children = (
+				5EE8A64617B6793900F406E1 /* MobTools */,
+				5EE8A63F17B6793900F406E1 /* Frameworks */,
+				5EE8A63E17B6793900F406E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EE8A63E17B6793900F406E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8A63D17B6793900F406E1 /* MobTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE8A63F17B6793900F406E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8A64017B6793900F406E1 /* UIKit.framework */,
+				5EE8A64217B6793900F406E1 /* Foundation.framework */,
+				5EE8A64417B6793900F406E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EE8A64617B6793900F406E1 /* MobTools */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8A64717B6793900F406E1 /* Supporting Files */,
+				5EE8A67117B679CF00F406E1 /* jira_logo_2x.png */,
+				5EE8A67217B679CF00F406E1 /* jira_logo.png */,
+				5EE8A67317B679CF00F406E1 /* lix_logo_2x.png */,
+				5EE8A67417B679CF00F406E1 /* lix_logo.png */,
+				5EE8A67517B679CF00F406E1 /* rb_logo_2x.png */,
+				5EE8A67617B679CF00F406E1 /* rb_logo.png */,
+				5EE8A64F17B6793900F406E1 /* MobToolsAppDelegate.h */,
+				5EE8A65017B6793900F406E1 /* MobToolsAppDelegate.m */,
+				5EE8A68317B67BA200F406E1 /* MobToolsLIXNavController.h */,
+				5EE8A68417B67BA300F406E1 /* MobToolsLIXNavController.m */,
+				5EE8A68617B67BB500F406E1 /* MobToolsCRTNavController.h */,
+				5EE8A68717B67BB500F406E1 /* MobToolsCRTNavController.m */,
+				5EE8A69F17B6833800F406E1 /* MobToolsLIXLoggedInViewController.h */,
+				5EE8A6A017B6833800F406E1 /* MobToolsLIXLoggedInViewController.m */,
+				5EE8A6A117B6833800F406E1 /* MobToolsLIXLoggedInViewController.xib */,
+				5EE8A6A417B6834300F406E1 /* MobToolsLIXLoggedOutViewController.h */,
+				5EE8A6A517B6834300F406E1 /* MobToolsLIXLoggedOutViewController.m */,
+				5EE8A6A617B6834300F406E1 /* MobToolsLIXLoggedOutViewController.xib */,
+				5EE8A6A917B6836400F406E1 /* MobToolsCRTLoggedInViewController.h */,
+				5EE8A6AA17B6836400F406E1 /* MobToolsCRTLoggedInViewController.m */,
+				5EE8A6AB17B6836500F406E1 /* MobToolsCRTLoggedInViewController.xib */,
+				5EE8A6AE17B6837300F406E1 /* MobToolsCRTLoggedOutViewController.h */,
+				5EE8A6AF17B6837300F406E1 /* MobToolsCRTLoggedOutViewController.m */,
+				5EE8A6B017B6837300F406E1 /* MobToolsCRTLoggedOutViewController.xib */,
+			);
+			path = MobTools;
+			sourceTree = "<group>";
+		};
+		5EE8A64717B6793900F406E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8A64817B6793900F406E1 /* MobTools-Info.plist */,
+				5EE8A64917B6793900F406E1 /* InfoPlist.strings */,
+				5EE8A64C17B6793900F406E1 /* main.m */,
+				5EE8A64E17B6793900F406E1 /* MobTools-Prefix.pch */,
+				5EE8A65217B6793900F406E1 /* Default.png */,
+				5EE8A65417B6793900F406E1 /* Default@2x.png */,
+				5EE8A65617B6793900F406E1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE8A63C17B6793900F406E1 /* MobTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE8A66E17B6793900F406E1 /* Build configuration list for PBXNativeTarget "MobTools" */;
+			buildPhases = (
+				5EE8A63917B6793900F406E1 /* Sources */,
+				5EE8A63A17B6793900F406E1 /* Frameworks */,
+				5EE8A63B17B6793900F406E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobTools;
+			productName = MobTools;
+			productReference = 5EE8A63D17B6793900F406E1 /* MobTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE8A63517B6793900F406E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MobTools;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LinkedIn;
+			};
+			buildConfigurationList = 5EE8A63817B6793900F406E1 /* Build configuration list for PBXProject "MobTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EE8A63417B6793900F406E1;
+			productRefGroup = 5EE8A63E17B6793900F406E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EE8A63C17B6793900F406E1 /* MobTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE8A63B17B6793900F406E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE8A64B17B6793900F406E1 /* InfoPlist.strings in Resources */,
+				5EE8A65317B6793900F406E1 /* Default.png in Resources */,
+				5EE8A65517B6793900F406E1 /* Default@2x.png in Resources */,
+				5EE8A65717B6793900F406E1 /* Default-568h@2x.png in Resources */,
+				5EE8A67717B679CF00F406E1 /* jira_logo_2x.png in Resources */,
+				5EE8A67817B679CF00F406E1 /* jira_logo.png in Resources */,
+				5EE8A67917B679CF00F406E1 /* lix_logo_2x.png in Resources */,
+				5EE8A67A17B679CF00F406E1 /* lix_logo.png in Resources */,
+				5EE8A67B17B679CF00F406E1 /* rb_logo_2x.png in Resources */,
+				5EE8A67C17B679CF00F406E1 /* rb_logo.png in Resources */,
+				5EE8A6A317B6833800F406E1 /* MobToolsLIXLoggedInViewController.xib in Resources */,
+				5EE8A6A817B6834300F406E1 /* MobToolsLIXLoggedOutViewController.xib in Resources */,
+				5EE8A6AD17B6836500F406E1 /* MobToolsCRTLoggedInViewController.xib in Resources */,
+				5EE8A6B217B6837300F406E1 /* MobToolsCRTLoggedOutViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE8A63917B6793900F406E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE8A64D17B6793900F406E1 /* main.m in Sources */,
+				5EE8A65117B6793900F406E1 /* MobToolsAppDelegate.m in Sources */,
+				5EE8A68517B67BA300F406E1 /* MobToolsLIXNavController.m in Sources */,
+				5EE8A68817B67BB500F406E1 /* MobToolsCRTNavController.m in Sources */,
+				5EE8A6A217B6833800F406E1 /* MobToolsLIXLoggedInViewController.m in Sources */,
+				5EE8A6A717B6834300F406E1 /* MobToolsLIXLoggedOutViewController.m in Sources */,
+				5EE8A6AC17B6836500F406E1 /* MobToolsCRTLoggedInViewController.m in Sources */,
+				5EE8A6B117B6837300F406E1 /* MobToolsCRTLoggedOutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EE8A64917B6793900F406E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE8A64A17B6793900F406E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EE8A66C17B6793900F406E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EE8A66D17B6793900F406E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE8A66F17B6793900F406E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobTools/MobTools-Prefix.pch";
+				INFOPLIST_FILE = "MobTools/MobTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EE8A67017B6793900F406E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobTools/MobTools-Prefix.pch";
+				INFOPLIST_FILE = "MobTools/MobTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE8A63817B6793900F406E1 /* Build configuration list for PBXProject "MobTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE8A66C17B6793900F406E1 /* Debug */,
+				5EE8A66D17B6793900F406E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE8A66E17B6793900F406E1 /* Build configuration list for PBXNativeTarget "MobTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE8A66F17B6793900F406E1 /* Debug */,
+				5EE8A67017B6793900F406E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EE8A63517B6793900F406E1 /* Project object */;
+}
